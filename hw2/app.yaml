@@ -1,0 +1,13 @@
+application: automatic-tea-98017 
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /.*
+  script: ROT13.application
+
+libraries:
+- name: jinja2
+  version: latest

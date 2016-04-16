@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %} Thanks! {% endblock %}
+
+{% block content %}
+  {{post.render() | safe}}
+<br><br>
+<h3>Thanks for your contribution</h3>
+<br><br>
+<p><a href="/"> click here</a> <b>to visit home page.</b> <p>
+{% endblock %}
